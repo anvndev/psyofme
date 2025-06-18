@@ -9,7 +9,7 @@ description: Exploring the depths of human psychology through evidence-based ins
     <div class="hero-content">
       <h1 class="hero-title">Welcome to psyofme</h1>
       <p class="hero-subtitle">
-        Explore the fascinating world of psychology through evidence-based insights, 
+        Explore the fascinating world of psychology through evidence-based insights,
         practical strategies for personal growth, and mindful approaches to mental well-being.
       </p>
       <a href="#latest-posts" class="hero-cta">
@@ -23,7 +23,7 @@ description: Exploring the depths of human psychology through evidence-based ins
 <section id="latest-posts" class="latest-posts">
   <div class="container">
     <h2 class="section-title">Latest Articles</h2>
-    
+
     <div class="posts-grid">
       {% for post in site.posts limit:6 %}
         <article class="post-card {% if forloop.first %}featured{% endif %}">
@@ -32,14 +32,14 @@ description: Exploring the depths of human psychology through evidence-based ins
               <img data-src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
             </div>
           {% endif %}
-          
+
           <div class="post-card-content">
             <h3 class="post-card-title">
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
-            
+
             <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-            
+
             <div class="post-card-meta">
               <time>{{ post.date | date: "%B %d, %Y" }}</time>
               {% if post.categories.size > 0 %}
@@ -56,9 +56,9 @@ description: Exploring the depths of human psychology through evidence-based ins
         </article>
       {% endfor %}
     </div>
-    
+
     <div class="section-footer">
-      <a href="/psyofme/categories/" class="view-all-link">
+      <a href="./categories/" class="view-all-link">
         View All Articles
         <span>→</span>
       </a>
@@ -69,45 +69,45 @@ description: Exploring the depths of human psychology through evidence-based ins
 <section class="categories-section">
   <div class="container">
     <h2 class="section-title">Explore Topics</h2>
-    
+
     <div class="categories-grid">
       <div class="category-card">
         <div class="category-icon">🧠</div>
         <h3>Clinical Psychology</h3>
         <p>Evidence-based approaches to understanding and treating mental health conditions with compassion and scientific rigor.</p>
-        <a href="/psyofme/category/clinical-psychology/" class="category-link">
+        <a href="./category/clinical-psychology/" class="category-link">
           Explore
           <span>→</span>
         </a>
       </div>
-      
+
       <div class="category-card">
         <div class="category-icon">🌱</div>
         <h3>Personal Growth</h3>
         <p>Strategies and insights for developing resilience, self-awareness, and emotional intelligence in daily life.</p>
-        <a href="/psyofme/category/personal-growth/" class="category-link">
+        <a href="./category/personal-growth/" class="category-link">
           Explore
           <span>→</span>
         </a>
       </div>
-      
+
       <div class="category-card">
         <div class="category-icon">🧘</div>
         <h3>Mindfulness</h3>
         <p>Practical mindfulness techniques and the science behind contemplative practices for mental well-being.</p>
-        <a href="/psyofme/category/mindfulness/" class="category-link">
+        <a href="./category/mindfulness/" class="category-link">
           Explore
           <span>→</span>
         </a>
       </div>
-      
+
       <div class="category-card">
         <div class="category-icon">💝</div>
         <h3>Relationships</h3>
         <p>Understanding interpersonal dynamics and building healthier, more meaningful connections with others.</p>
         <br>
         <br>
-        <a href="/psyofme/category/relationships/" class="category-link">
+        <a href="./category/relationships/" class="category-link">
           Explore
           <span>→</span>
         </a>
@@ -117,7 +117,7 @@ description: Exploring the depths of human psychology through evidence-based ins
         <div class="category-icon">🛠️</div>
         <h3>Therapeutic Tools & Techniques</h3>
         <p>Evidence-based practices and everyday exercises to navigate emotions, reduce stress, and support mental well-being—one small step at a time.</p>
-        <a href="/psyofme/category/therapeutic-tools/" class="category-link">
+        <a href="./category/therapeutic-tools/" class="category-link">
           Explore
           <span>→</span>
         </a>
@@ -127,7 +127,7 @@ description: Exploring the depths of human psychology through evidence-based ins
         <div class="category-icon">🌒</div>
         <h3>Shadow Work & Inner Child</h3>
         <p>Deepen your self-understanding by exploring hidden parts of the psyche and healing emotional wounds rooted in childhood and past experiences.</p>
-        <a href="/psyofme/category/shadow-work/" class="category-link">
+        <a href="./category/shadow-work/" class="category-link">
           Explore
           <span>→</span>
         </a>
