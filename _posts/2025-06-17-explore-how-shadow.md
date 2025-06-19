@@ -3,7 +3,7 @@ layout: post
 title: "Shadow Work & Inner Child: Healing the Hidden Self"
 description: "Explore how shadow work and inner child healing can transform your emotional landscape, deepen self-awareness, and foster genuine self-love."
 date: 2025-06-17
-categories: [Personal Growth, Self-Awareness]
+categories: [Personal Growth, Self-Awareness, Shadow Work & Inner Child]
 tags: [shadow-work, inner-child, healing, trauma, self-discovery]
 image: "https://cloverleaf.co.in/wp-content/uploads/2024/11/360_f_985051997_svf9ne3vijf8lxglozpwgd8brr4kz50j-1.jpg"
 author: "psyofme"
