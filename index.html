@@ -25,7 +25,7 @@ description: Exploring the depths of human psychology through evidence-based ins
     <h2 class="section-title">Latest Articles</h2>
 
     <div class="posts-grid">
-      {% for post in site.posts limit:6 %}
+      {% for post in site.posts limit:4 %}
         <article class="post-card {% if forloop.first %}featured{% endif %}">
           {% if post.image %}
             <div class="post-card-image">
